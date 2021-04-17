@@ -3,3 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+.App{
+  height: 80vh;
+  width: 50vw;
+  margin:10vh auto;
+}
+
+@media(max-width:800px){
+  .App{
+    width: 100vw;
+  }
+}
