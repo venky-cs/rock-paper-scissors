@@ -1,7 +1,12 @@
-import React, { FC } from 'react'
+import React, { FC, useState } from 'react'
 import './Header.css'
+import store from '../../Redux/store'
 
 const Header: FC = () => {
+    const [score, setScore] = useState<number>(0)
+    store.subscribe(() => {
+        setScore(store.getState().counter.score)
+    })
     return (
         <div className="header">
             <div className="title">
@@ -11,7 +16,8 @@ const Header: FC = () => {
             </div>
 
             <div className="score">
-                <span>SCORE</span>
+                <h3>SCORE</h3>
+                <h3>{score}</h3>
             </div>
         </div>
     )
