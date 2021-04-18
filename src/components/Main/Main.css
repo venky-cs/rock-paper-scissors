@@ -51,3 +51,13 @@
     background-size: auto;
     background-position:center;
 }
+.main .check div > button{
+    position:static !important;
+}
+.check{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
