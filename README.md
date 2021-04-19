@@ -40,7 +40,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: (https://github.com/venky-cs/rock-paper-scissors)
-- Live Site URL: (https://venky-cs-rockPaperScissors.netlify.app)
+- Live Site URL: (https://venky-cs-rock-paper-scissors.netlify.app)
 
 
 ### Built with
