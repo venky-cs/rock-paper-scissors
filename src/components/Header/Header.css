@@ -1,8 +1,36 @@
-.header{
-    display:flex;
-    justify-content: space-between;
-    color: white;
-    border: 5px solid gray;
-    border-radius: 12px;
-    padding:20px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  border: 5px solid rgba(128, 128, 128, 0.664);
+  border-radius: 12px;
+  padding: 20px 50px;
+}
+
+.header .score {
+  text-align: center;
+  background-color: white;
+  padding: 10px 25px;
+  border-radius: 12px;
+}
+.score h3 {
+  color: rgb(88, 90, 207);
+}
+.score h1 {
+  color: rgba(51, 47, 47, 0.712);
+}
+
+@media (max-width: 500px) {
+  h3{
+    font-size: 14px;
+  }
+  h1{
+    font-size: 20px;
+  }
+  .header {
+    padding: 20px;
+  }
+  .header .score {
+    padding: 10px 20px;
+  }
 }

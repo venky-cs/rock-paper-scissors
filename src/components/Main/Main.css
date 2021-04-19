@@ -1,114 +1,145 @@
-.main{
-    height: 50vh;
+.main {
+  height: 50vh;
 }
-.main .options{
-    width: 100%;
-    height: 70%;
-    margin:15% auto;
-    background-image: url('./bg-triangle.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    position: relative;
+.main .options {
+  width: 100%;
+  height: 70%;
+  margin: 15% auto;
+  background-image: url('./bg-triangle.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
 }
-.main .rock{
-    width: 120px;
-    height: 120px;
-    border: 5px solid black;
-    border-radius: 100%;
-    position:absolute;
-    bottom: -50px;
-    left:44%;
-    background-image: url('./icon-rock.svg');
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position:center;
+.main .rock {
+  width: 150px;
+  height: 150px;
+  border: 15px solid rgba(255, 0, 0, 0.658);
+  border-radius: 100%;
+  position: absolute;
+  bottom: -50px;
+  left: 44%;
+  background-image: url('./icon-rock.svg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
 }
-.main .paper{
-    width: 120px;
-    height: 120px;
-    border: 5px solid black;
-    border-radius: 100%;
-    position:absolute;
-    top: 0;
-    right: 0;
-    left: 24%;
-    background-image: url('./icon-paper.svg');
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position:center;
+.main .paper {
+  width: 150px;
+  height: 150px;
+  border: 15px solid rgba(0, 0, 255, 0.63);
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 24%;
+  background-image: url('./icon-paper.svg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
 }
-.main .scissors{
-    width: 120px;
-    height: 120px;
-    border: 5px solid black;
-    border-radius: 100%;
-    position:absolute;
-    top: 0;
-    right: 0;
-    left: 65%;
-    background-image: url('./icon-scissors.svg');
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position:center;
+.main .scissors {
+  width: 150px;
+  height: 150px;
+  border: 15px solid rgba(255, 166, 0, 0.61);
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 62%;
+  background-image: url('./icon-scissors.svg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
 }
-.main .check div > button{
-    position:static !important;
+.main .check div > button {
+  position: static !important;
 }
-.check{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-    width: 100%;
+.check {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.check .result {
+  margin-top: 150px;
+}
+.check h3 {
+  color: white;
+  padding: 40px 10px;
+}
+.check h2 {
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.check button {
+  color: red;
+  padding: 10px 30px;
+  border-radius: 12px;
+  outline: none;
+  cursor: pointer;
 }
 
-
-
-@media(max-width:1024px){
-    .main .rock{
-    width: 120px;
-    height: 120px;
-    left:40%;
-}
-.main .paper{
-    width: 120px;
-    height: 120px;
-    left: 0;
-}
-.main .scissors{
-    width: 120px;
-    height: 120px;
+@media (max-width: 1024px) {
+  .main .rock {
+    left: 36%;
+  }
+  .main .paper {
+    left: -30px;
+  }
+  .main .scissors {
     left: 80%;
+  }
 }
-}
-@media(max-width:768px){
-    .main .rock{
-    width: 100px;
-    height: 100px;
-    left:43%;
-}
-.main .paper{
-    width: 100px;
-    height: 100px;
-    left:100px;
-}
-.main .scissors{
-    width: 100px;
-    height: 100px;
-    left: 70%;
-}
+@media (max-width: 768px) {
+  .main .rock {
+    width: 120px;
+    height: 120px;
+    left: 43%;
+  }
+  .main .paper {
+    width: 120px;
+    height: 120px;
+    left: 100px;
+  }
+  .main .scissors {
+    width: 120px;
+    height: 120px;
+    left: 68%;
+  }
 }
 
-@media(max-width:500px){
-  .main .rock{
+@media (max-width: 580px) {
+  h3 {
+    font-size: 11px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  .main .rock {
     width: 100px;
     height: 100px;
-    left:40%;
-}
-.main .paper{
+    left: 38%;
+  }
+  .main .paper {
     width: 100px;
     height: 100px;
-    left:10px;
-}
+    left: 0;
+  }
+  .main .scissors {
+    width: 100px;
+    height: 100px;
+    left: 75%;
+  }
+  .check .result {
+    /* margin-top: 550px; */
+    position: relative;
+    top: 80px;
+  }
+  .check h3 {
+    color: white;
+    padding: 10px;
+  }
 }

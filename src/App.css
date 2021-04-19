@@ -1,18 +1,18 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.App{
+.App {
   height: 80vh;
   width: 50vw;
-  margin:10vh auto;
+  margin: 10vh auto;
 }
 
-@media(max-width:800px){
-  .App{
+@media (max-width: 800px) {
+  .App {
     width: 90vw;
     height: 80vh;
-    margin:10vh auto;
+    margin: 10vh auto;
   }
 }
