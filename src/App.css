@@ -11,6 +11,8 @@
 
 @media(max-width:800px){
   .App{
-    width: 100vw;
+    width: 90vw;
+    height: 80vh;
+    margin:10vh auto;
   }
 }

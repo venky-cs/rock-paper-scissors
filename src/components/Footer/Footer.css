@@ -32,3 +32,11 @@
     background-size: auto;
     background-position:center;
 }
+
+@media(max-width:500px){
+    .box .model{
+    width: 340px;
+    height: 350px;
+    background-color: white;
+}
+}

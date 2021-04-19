@@ -37,14 +37,14 @@ const Main: FC = () => {
                         <button className={select}></button>
                     </div>
                     <div className="result">
-                        <h3>{result}</h3>
+                        <h5>{result}</h5>
                         <button onClick={() => {
                             setAns(true);
                             setResult('');
                         }}>PLAY AGAIN</button>
                     </div>
                     <div>
-                        <h3>THE HOUSE PICKED</h3>
+                        <h3>HOUSE PICKED</h3>
                         <button className={com}></button>
                     </div>
                 </div>
