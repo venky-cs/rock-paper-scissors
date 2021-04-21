@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  color: white;
+  outline:hsl(217, 16%, 45%);
   border: 5px solid rgba(128, 128, 128, 0.664);
   border-radius: 12px;
   padding: 20px 50px;
@@ -14,13 +14,17 @@
   border-radius: 12px;
 }
 .score h3 {
-  color: rgb(88, 90, 207);
+  color: hsl(229, 64%, 46%);
 }
 .score h1 {
-  color: rgba(51, 47, 47, 0.712);
+  color:  hsl(229, 25%, 31%);
 }
 
 @media (max-width: 500px) {
+  .title img{
+    /* width: 100px; */
+    height: 70px;
+  }
   h3{
     font-size: 14px;
   }

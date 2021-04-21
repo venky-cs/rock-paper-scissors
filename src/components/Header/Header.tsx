@@ -1,5 +1,6 @@
 import React, { FC, useState } from 'react';
 import './Header.css';
+import logo from './logo.svg'
 import store from '../../Redux/store';
 
 const Header: FC = () => {
@@ -10,9 +11,7 @@ const Header: FC = () => {
     return (
         <div className="header">
             <div className="title">
-                <h3>ROCK</h3>
-                <h3>PAPER</h3>
-                <h3>SCISSORS</h3>
+                <img src={logo} alt="logo" />
             </div>
 
             <div className="score">

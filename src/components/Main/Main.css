@@ -14,7 +14,7 @@
 .main .rock {
   width: 150px;
   height: 150px;
-  border: 15px solid rgba(255, 0, 0, 0.658);
+  border: 15px solid hsl(349, 71%, 52%);
   border-radius: 100%;
   position: absolute;
   bottom: -50px;
@@ -27,7 +27,7 @@
 .main .paper {
   width: 150px;
   height: 150px;
-  border: 15px solid rgba(0, 0, 255, 0.63);
+  border: 15px solid hsl(230, 89%, 62%);
   border-radius: 100%;
   position: absolute;
   top: 0;
@@ -41,7 +41,7 @@
 .main .scissors {
   width: 150px;
   height: 150px;
-  border: 15px solid rgba(255, 166, 0, 0.61);
+  border: 15px solid hsl(39, 89%, 49%);
   border-radius: 100%;
   position: absolute;
   top: 0;
